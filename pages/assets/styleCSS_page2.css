@@ -1,0 +1,36 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+
+
+.image1>img{
+  position: absolute;
+  padding: 5px;
+  width: 700px;
+  top: 30%;
+  left: 0%;
+} 
+
+.image2>img{
+  position: absolute;
+  padding: 5px;
+  width: 700px;
+  top: 50%;
+  left: 50%;
+} 
+
+.image3>img{
+  position: absolute;
+  padding: 5px;
+  width: 800px;
+  top: 80%;
+  left: 20%;
+} 
+
+.image4>img{
+  position: absolute;
+  padding: 5px;
+  width: 1000px;
+  top: 120%;
+  left: 10%;
+} 

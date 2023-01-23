@@ -1,0 +1,122 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+
+#space{
+  margin-top: 2px;
+}
+#space-top{
+  margin-top: 2px;
+  margin§
+}
+p#space-top {
+    margin-left: 10px;
+}
+
+}
+span{
+  margin: 0 15px;
+  line-height: .7;
+  text-shadow: 0 0 2px rgba(0, 0, 0, .45);
+  animation: span 5s ease-in infinite alternate;
+}
+.main{
+  display: flex;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+      font-size: 24px;
+    padding-top: 10px;
+  align-items: flex-start;
+  /*animation: span 5s ease-in infinite alternate;*/
+    
+}
+.letter{
+  display: inline-flex;
+  height: 27px;
+  width: 27px;
+  margin-top: 0px;
+   border: 2.5px solid darkorange; 
+
+  border-radius: 14px;
+  box-shadow:
+    0 0 1px rgba(0, 0, 0, .75),
+    inset 0 0 1px rgba(0, 0, 0, .45);
+  
+  /*  animation: span 5s ease-in infinite alternate;*/
+ animation: letter 5s ease-in-out infinite alternate;
+}
+@keyframes span {
+  0%,30%{ margin: 0 0px;}
+  70%,100%{ margin: 0 5px;}
+}
+@keyframes letter {
+  0%,30%{ width: 27px; background: white; }
+  70%,100%{ width: 3vw; background: darkorange; box-shadow: none;}
+}
+
+.grid-container{
+  display: grid;
+
+  --gap: 40px;
+  --num-cols: 2;
+  --row-height: 250px;
+
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  gap: var(--gap);
+  box-sizing: border-box;
+      padding: 100px;
+    padding-top: 0px;
+}
+
+h1{
+  font-size: 24px;
+  line-height: 62px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+#left{
+  text-align: -webkit-right;
+}
+
+h2{
+  font-size: 15px;
+  padding-top: 20px;
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+ h1#moving-text {
+
+    }
+
+h3{
+  font-size: 15px;
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+h4{
+  font-size: 15px;
+  line-height: 1  8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+#grid-row-2{
+  grid-row:span 3;
+}
