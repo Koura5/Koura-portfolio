@@ -54,7 +54,7 @@ p#space-top {
   70%,100%{ margin: 0 5px;}
 }
 @keyframes letter {
-  0%,30%{ width: 27px; background: white; }
+  0%,30%{ width: 27px; background: rgb(0 255 255 / 0%); }
   70%,100%{ width: 3vw; background: darkorange; box-shadow: none;}
 }
 
@@ -63,7 +63,7 @@ p#space-top {
 
 
 
-#headline{
+#headline{  
   font-size: 30px;
   color: black;
   font-family: sans-serif;
