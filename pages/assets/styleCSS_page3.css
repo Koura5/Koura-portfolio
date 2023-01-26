@@ -39,7 +39,7 @@ p#space-top {
   height: 27px;
   width: 27px;
   margin-top: 0px;
-   border: 2.5px solid darkorange; 
+   border: 3 px solid darkorange; 
 
   border-radius: 14px;
   box-shadow:
@@ -54,7 +54,7 @@ p#space-top {
   70%,100%{ margin: 0 5px;}
 }
 @keyframes letter {
-  0%,30%{ width: 27px; background: rgb(0 255 255 / 0%); }
+  0%,30%{ width: 27px; background: none; }
   70%,100%{ width: 3vw; background: darkorange; box-shadow: none;}
 }
 
