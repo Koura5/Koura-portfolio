@@ -2,7 +2,7 @@
 @import "https://unpkg.com/open-props/normalize.min.css";
 
 
-/* HAMBURGER START *
+/* HAMBURGER START */
 
 #menu__toggle {
   opacity: 0;
@@ -90,6 +90,8 @@ color: darkorange;
   opacity: 0;
 }
 /* HAMBURGER END */
+
+
 
 .floatAboveEverything {
   z-index: 100;
