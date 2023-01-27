@@ -227,8 +227,7 @@ section{
     scroll-snap-align: none;
   }
   div#section-1 {
-    scroll-snap-type: none;
-    min-height: auto;
+    height: 50vh;
   }
     #grid-container {
     --num-cols: 1;
@@ -237,12 +236,12 @@ section{
   #bottom-padding{
     padding-bottom: 400px;
   }
-  h1#moving-text{
-    top: 100px;
-    left: 100px;
-  }
-}
 
+
+
+
+}
+@media screen and (min-width: 1024px) {
 
     h1#moving-text {
       font-size: 25px;
