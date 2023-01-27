@@ -230,14 +230,18 @@ section{
     height: 50vh;
   }
     #grid-container {
-    --num-cols: 1;
+    --num-cols: 2;
     --row-height: 200px;
   }
   #bottom-padding{
     padding-bottom: 400px;
   }
 
-
+.center-2 {
+  padding: 100px 0;
+  padding-right: 100px;
+  text-align: center;
+}
 
 
 }
@@ -425,6 +429,9 @@ margin-top: 0px;
 
 #hover-left{
   margin: 25%;
+  padding: 100px 0;
+  text-align: center;
+  
 }
 
 
